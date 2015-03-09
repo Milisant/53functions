@@ -1,6 +1,6 @@
 function sumAll(n) {
   var i;
-  for(i = 1; i < n; i++) {
+  for(i = 1; i <= n; i++) {
     console.log(i);
   }
 }
