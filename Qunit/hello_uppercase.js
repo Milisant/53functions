@@ -1,8 +1,3 @@
 function upperCase(username) {
-    return "Hello World " + username;
-	
-}
-
-var username = {
-	linkie.toUpperCase();
+  return "hello" + username;
 }

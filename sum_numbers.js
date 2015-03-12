@@ -1,7 +1,8 @@
-function sumAll(n) {
-  var i;
-  for(i = 1; i <= n; i++) {
-    console.log(i);
+function sum_numbers(n) {
+  var sum = 0;
+  for(var i = 1; i <= n; i++) {
+    sum+= i;
   }
+return sum;
 }
-sumAll(5+6);
+

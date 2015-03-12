@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	   <title>task 7</title>
+	   <link rel="stylesheet" type="text/css" src="tdd.css">
+	</head>
+	<body>
+
+		<div id="Square"></div>
+		
+		<script type="text/javascript" src="tdd.js"></script>
+		
+		<script type="text/javascript" src="tdd_DeepHouse.js"></script>
+		<script type="text/javascript" src="tdd_Programming.js"></script>
+		<script type="text/javascript" src="hello.js"></script>
+                <script type="text/javascript" src="hello_joe.js"></script>
+                <script type="text/javascript" src="number_list.js"></script>
+                <script type="text/javascript" src="sum_numbers.js"></script>
+                <script type="text/javascript" src="hello_uppercase.js"></script>
+
+		<script type="text/javascript" src="tdd_test.js"></script>
+        
+	</body>
+</html>
