@@ -1,0 +1,15 @@
+{
+  "name": "Qunit",
+  "version": "0.0.0",
+  "description": "53 functions created by linkie",
+  "main": "Count_words.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "53functions"
+  },
+  "author": "linkie",
+  "license": "BSD-2-Clause"
+}

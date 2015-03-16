@@ -9,7 +9,7 @@ equal(result, "hello!");
 
 test( "number list", function() {
 	var result = number_list(10);
-equal(result.toString(), [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].toString());
+	equal(result.toString(), [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].toString());
 });
 
 test( "sum numbers", function() {
@@ -40,4 +40,14 @@ equal(result, "egnaro");
 test( "length", function() {
 	var result = length("linkie");
 equal(result, "linkie".length);
+});
+
+test( "upper", function() {
+	var result = upper("linkie");
+equal(result, "linkie".toUppercase);
+});
+
+test( "hello list", function() {
+	var result = hello_list(5);
+equal(result, "hello World");
 });

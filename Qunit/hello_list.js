@@ -1,7 +1,8 @@
-function hello(n) {
-	var i;
-for(i = 1; i < n; i++){
-    return "hello World ";
+function hello_list(n) {
+	var list = [];
+for(var i = 1; i < n; i++){
+    list.push([i]);
 	
 }
+return "hello World";
 }
