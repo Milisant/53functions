@@ -51,3 +51,35 @@ test( "hello list", function() {
 	var result = hello_list(5);
 equal(result, "hello World");
 });
+
+test( "sum word len", function() {
+        var sentence = ("I have a dream");
+	var result = sum_word_len(sentence);
+equal(result,14);
+});
+test("longest word", function() {
+	var sentence = ("Nelisa want's to know what to buy in bulk");
+	var longest = ("Nelisa");
+	var result = longest_word(longest);
+	equal(result, "Nelisa".length);
+});
+
+test("shortest word", function() {
+	var sentence = ("Nelisa want's to know what to buy in bulk");
+	var shortest = ("to");
+	var result = longest_word(shortest);
+	equal(result, "to".length);
+});
+test("word length", function() {
+	var sentence = ("You are a pig dude");
+	var average = Math.round(5,0);
+	var result = word_length(average);
+	equal(result, 5);
+});
+
+test("average", function() {
+	var sentence = ("You are a pig dude");
+	var average = Math.round(sentence * 10) / 5;
+	var result = word_length(average);
+	equal(result, 5);
+});
